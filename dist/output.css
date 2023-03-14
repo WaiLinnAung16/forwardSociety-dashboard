@@ -2927,6 +2927,30 @@ html{
   line-height: 1.25rem;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.sticky{
+  position: sticky;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.z-20{
+  z-index: 20;
+}
+
 .col-span-3{
   grid-column: span 3 / span 3;
 }
@@ -2950,12 +2974,64 @@ html{
   margin-left: 1.25rem;
 }
 
+.ml-\[400px\]{
+  margin-left: 400px;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
 
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mb-\[50px\]{
+  margin-bottom: 50px;
+}
+
+.mt-\[50px\]{
+  margin-top: 50px;
+}
+
+.mt-\[200px\]{
+  margin-top: 200px;
+}
+
+.mt-\[100px\]{
+  margin-top: 100px;
+}
+
+.mt-\[80px\]{
+  margin-top: 80px;
+}
+
+.mt-\[70px\]{
+  margin-top: 70px;
+}
+
+.mt-\[60px\]{
+  margin-top: 60px;
+}
+
+.mt-\[65px\]{
+  margin-top: 65px;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.ml-\[345px\]{
+  margin-left: 345px;
 }
 
 .flex{
@@ -2970,6 +3046,18 @@ html{
   display: grid;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
+.h-\[3000px\]{
+  height: 3000px;
+}
+
+.h-full{
+  height: 100%;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -2982,10 +3070,6 @@ html{
   width: 13rem;
 }
 
-.w-\[100\%\]{
-  width: 100%;
-}
-
 .w-\[130px\]{
   width: 130px;
 }
@@ -2996,6 +3080,26 @@ html{
 
 .w-full{
   width: 100%;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.w-\[90\%\]{
+  width: 90%;
+}
+
+.w-\[80\%\]{
+  width: 80%;
+}
+
+.w-\[345px\]{
+  width: 345px;
 }
 
 .flex-1{
@@ -3016,6 +3120,10 @@ html{
 
 .items-center{
   align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-2{
@@ -3086,8 +3194,39 @@ html{
   padding-right: 1.25rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pb-5{
   padding-bottom: 1.25rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-lg{
