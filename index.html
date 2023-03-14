@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section
+      id="sideBar"
+      class="w-[345px] h-screen bg-[#00122C] flex flex-col gap-5 fixed left-0 top-0"
+    >
+      <figure class="mt-5">
+        <img src="../assets/watermark.png" alt="logo" class="h-[80px] ml-5"  />
+      </figure>
+      <ul class="menu w-full p-2 text-white">
+        <li class="menu-title my-2">
+          <span>Navigation</span>
+        </li>
+        <li>
+          <a href="" class="active">
+            <i class="fa-solid fa-house"></i>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="" class="">
+            <i class="fa-solid fa-user-group"></i>
+            Team
+          </a>
+        </li>
+        <li class="menu-title my-2">
+          <span>Category</span>
+        </li>
+        <li>
+          <a class="">
+            <i class="fa-regular fa-calendar"></i>
+            Calendar
+          </a>
+        </li>
+        <li>
+          <a class="">
+            <i class="fa-solid fa-images"></i>
+            Blogs
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="pb-5 ml-[345px] bg-[#fafafa]">
+      <!-- Navbar -->
+      <div class="navbar bg-white shadow-sm px-4 py-2 sticky top-0 z-20">
+        <div class="form-control flex-1">
+          <div class="input-group">
+            <input
+              type="text"
+              placeholder="Search…"
+              class="input input-bordered w-[400px]"
+            />
+            <button class="btn btn-square bg-primary border-primary">
+              <i class="fa fa-search text-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar bg-primary">
+              <div class="w-10 rounded-full ">
+                <!-- <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" /> -->
+              </div>
+            </label>
+            <ul
+              tabindex="0"
+              class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a class=""> Profile </a>
+              </li>
+              <li><a class="">Settings</a></li>
+              <li><a class="">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="min-h-screen">
+        <!-- Breadcrumb -->
+        <div class="text-sm breadcrumbs ml-5 pt-5  text-primary">
+          <ul>
+            <li><a>Dashboard</a></li>
+            <li><a>Documents</a></li>
+            <li>Add Document</li>
+          </ul>
+        </div>
+        <!-- Content -->
+        <section>
+          <!-- Table  -->
+          <section class=" m-5 p-5 rounded bg-white">
+              <header class="mb-2 flex items-center">
+                <h1 class=" text-xl font-bold flex-1">Table</h1>
+                <a class=" btn btn-primary btn-md flex-none"><i class="fa fa-plus-circle"></i></a>
+              </header>
+              <table class="table w-full">
+                <!-- head -->
+                <thead >
+                  <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Control</th>
+                    <th>Created at</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- row 1 -->
+                  <tr>
+                    <th>1</th>
+                    <td>Cy Ganderton</td>
+                    <td>Quality Control Specialist</td>
+                    <td>
+                      <div class="btn-group">
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-edit"></i>
+                        </button>
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-eye"></i>
+                        </button>
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <h1 class="">Jan 2023</h1>
+                      <p class="text-sm">18:00 ~ 21:00</p>
+                    </td>
+                  </tr>
+                  <!-- row 2 -->
+                  <tr>
+                    <th>2</th>
+                    <td>Hart Hagerty</td>
+                    <td>Desktop Support Technician</td>
+                    <td>
+                      <div class="btn-group">
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-edit"></i>
+                        </button>
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-eye"></i>
+                        </button>
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td>Jan 2023</td>
+                  </tr>
+                  <!-- row 3 -->
+                  <tr>
+                    <th>3</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>
+                      <div class="btn-group">
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-edit"></i>
+                        </button>
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-eye"></i>
+                        </button>
+                        <button class="btn btn-primary btn-outline btn-sm">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td>Jan 2023</td>
+                  </tr>
+                </tbody>
+              </table>
+          </section>
+          <section class="m-5 p-5 rounded bg-white">
+            <header class="mb-2 flex items-center">
+              <h1 class=" text-xl font-bold flex-1">Form</h1>
+              <a class=" btn btn-primary btn-md flex-none"><i class="fa fa-plus-circle"></i></a>
+            </header>
+            <!-- Form content -->
+            <div class="grid grid-cols-6 gap-5 ">
+              <div class="form-control w-full col-span-3">
+                <label class="label">
+                  <span class="label-text ">First Name</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Type here"
+                  class="input input-bordered w-full"
+                />
+              </div>
+              <div class="form-control col-span-3">
+                <label class="label">
+                  <span class="label-text">Last Name</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Type here"
+                  class="input input-bordered w-full"
+                />
+              </div>
+              <div class="form-control w-full col-span-3">
+                <label class="label">
+                  <span class="label-text">Email address</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Type here"
+                  class="input input-bordered w-full col-span-3"
+                />
+              </div>
+              <div class="form-control w-full col-span-3">
+                <label class="label">
+                  <span class="label-text">Pick a file</span>
+                </label>
+                <input
+                  type="file"
+                  class="file-input file-input-bordered w-full file-input-primary"
+                />
+              </div>
+            </div>
+            <button class="btn btn-primary mt-5">Button</button>
+          </section>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>

@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.active {
-  @apply bg-slate-800 rounded-lg;
+.table :where(thead, tfoot) :where(th, td){
+  background-color: #f8f8f8;
 }
+
+.active{
+  @apply text-white
+}
+.btn{
+  @apply text-white
+}
+
